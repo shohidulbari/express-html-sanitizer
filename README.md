@@ -72,5 +72,5 @@ app.listen(8080, ()=> {
 ``` 
 
 # Support
-Fell free to open issues on <a href="">github</a>
+Fell free to open issues on <a href="https://github.com/sbr35/express-html-sanitizer">github</a>
 

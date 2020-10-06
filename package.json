@@ -9,6 +9,10 @@
   "scripts": {
     "test": "mocha test/tests.js --exit"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sbr35/express-html-sanitizer.git"
+  },
   "keywords": [
     "html",
     "parser",
