@@ -1,0 +1,32 @@
+{
+  "name": "express-html-sanitizer",
+  "version": "1.0.0",
+  "description": "Express JS middleware to cleanup/sanitize json request body in express",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha test/tests.js --exit"
+  },
+  "keywords": [
+    "html",
+    "parser",
+    "sanitizer",
+    "express",
+    "middleware"
+  ],
+  "author": "Shohidul Bari",
+  "license": "MIT",
+  "dependencies": {
+    "sanitize-html": "^2.0.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "mocha": "^8.1.3"
+  }
+}
