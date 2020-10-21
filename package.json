@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sbr35/express-html-sanitizer.git"
+    "url": "https://github.com/shohidulbari/express-html-sanitizer.git"
   },
   "keywords": [
     "html",
