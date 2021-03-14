@@ -6,8 +6,8 @@ function cleanup(body, config){
         //function goes to recursive state only when it face another inner object or array
         if((typeof body[key] === 'object') || Array.isArray(body[key])){
             body[key] = cleanup(body[key]);
-        }else{
-            //cleaning up
+        }else if(typeof body[key] == 'string'){
+            //cleaning
             body[key] = sanitizeHtml(body[key], config);
         }
     }
